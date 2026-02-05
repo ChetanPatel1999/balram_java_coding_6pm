@@ -10,7 +10,7 @@ public class DogUser {
         d1.setDog("jerry", 6, "bull-dog");
         d2.setDog("tiger", 15, "husky");
         d3.setDog("shadow", 21, "human-being");
-
+        
         d1.getDog();
         d2.getDog();
         d3.getDog();

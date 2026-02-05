@@ -6,7 +6,7 @@ public class Circle {
     private double area;
     private double circumference;
 
-    public void setRadius(int r) {
+    Circle(int r) {
         radius = r;
     }
 

@@ -9,7 +9,7 @@ public class StudentUser {
         Student s3 = new Student();
         Student s4 = new Student();
         
-        s1.setColalgeName("holker Science Collage");
+        Student.setColalgeName("holker Science Collage");
                 
         s1.setStudent("raj", 101, 78);
         s2.setStudent("rupesh", 102, 90);
@@ -21,8 +21,10 @@ public class StudentUser {
         s3.getStudentResultCard();
         s4.getStudentResultCard();
         
-        s2.getTotalStudent();
-        s2.getTotalResult();
+        Student.getTotalStudent();
+        Student.getTotalResult();
+        
+        Student.helleUser();
 
     }
 }

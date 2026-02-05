@@ -17,7 +17,10 @@ public class Student {
         totalStudent++;
     }
 
-    public void setColalgeName(String n) {
+   
+
+    public static void setColalgeName(String n) {
+
         collagName = n;
     }
 
@@ -37,15 +40,22 @@ public class Student {
         System.out.println("----------------------------");
     }
 
-    public void getTotalResult() {
+    public static void getTotalResult() {
+
         System.out.println("Total pass : " + totalPass);
         System.out.println("Total Fail : " + totalFail);
         System.out.println("--------------------------");
     }
 
-    public void getTotalStudent() {
+    public static void getTotalStudent() {
+
         System.out.println("total student : " + totalStudent);
         System.out.println("--------------------------");
+    }
+
+    public static void helleUser() {
+        System.out.println("hello User !");
+        System.out.println("sub badiya ya koi tention !");
     }
 
 }
