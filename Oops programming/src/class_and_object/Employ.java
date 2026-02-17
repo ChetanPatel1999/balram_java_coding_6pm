@@ -5,12 +5,12 @@ public class Employ {
     private int id;
     private double sallary;
 
-    public Employ(String n, int i, double s) {
-        name = n;
-        id = i;
-        sallary = s;
+    public Employ(String name, int id, double sallary) {
+        this.name = name;
+        this.id = id;
+        this.sallary = sallary;
     }
-
+   
     void getEmploy() {
         System.out.println("Employ info : ");
         System.out.println("Employ name : " + name);

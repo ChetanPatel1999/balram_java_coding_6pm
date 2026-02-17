@@ -6,8 +6,8 @@ public class Circle {
     private double area;
     private double circumference;
 
-    Circle(int r) {
-        radius = r;
+    Circle(int radius) {
+        this.radius = radius;
     }
 
     public void calculateArea() {
