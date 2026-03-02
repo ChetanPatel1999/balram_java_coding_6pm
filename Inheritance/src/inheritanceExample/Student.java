@@ -1,6 +1,6 @@
 package inheritanceExample;
 
-public class Student {
+public abstract class Student {
 
     private int rno;
     private String name;
@@ -15,7 +15,6 @@ public class Student {
         System.out.println("Student rno : " + rno);
     }
 
-    String result(int per) {
-        return per >= 33 ? "pass" : "fail";
-    }
+    abstract String resultProcessing(int per);
+
 }

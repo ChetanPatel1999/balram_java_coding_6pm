@@ -18,7 +18,7 @@ public class MediStd extends Student {
         System.out.println("----------------------");
     }
 
-    String result(int per) {
+    String resultProcessing(int per) {
         return per >= 50 ? "pass" : "fail";
     }
 }

@@ -23,10 +23,12 @@ public class EngStd extends Student {
         System.out.println("----------------------");
     }
 
- 
     public String toString() {
         return "EngStd{" + "sem=" + sem + ", branch=" + branch + '}';
     }
 
-    
+    String resultProcessing(int per) {
+        return per >= 27 ? "pass" : "fail";
+    }
+
 }
